@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferencias</title>
+</head>
+<body style="background: rgb(86, 173, 130);">
+    <h1>formativa</h1>
+    <form>
+        <label for="name" style="display:inline-block; color: blue; width: 150px;">Nombre completo:</label>
+        <input type="text" placeholder="ingrese su nombre" id="name" name="name" style="border: 3px solid red; background: rgb(207, 161, 161); width: 200px;">
+        <br>
+        <label for="email" style="display:inline-block; color: blue; width: 150px;">Correo:</label>
+        <input type="email" placeholder="escriba el correo" id="email" name="email" style="border: 3px solid red; background: rgb(207, 161, 161); width: 200px;">
+        <br>
+        <label for="pais" style="display:inline-block; color: blue; width: 150px;">Pais de residencia:</label>
+        <select id="pais" name="pais">
+            <option value="colombia">Colombia</option>
+            <option value="mexico">Mexico</option>
+            <option value="argentina">Argentina</option>
+            <option value="bolivia">Bolivia</option><br>
+            <br>
+            <label>genero</label>
+            <input type="radio" name="genero" checked>Masculino
+            <input type="radio" name="genero">Femenino
+            <input type="radio" name="genero" value="otro">Otro
+            <br>
+            <input type="checkbox" id="musica" name="musica" value="musica">
+            <label for="musica">musica</label>
+            <input type="checkbox" id="deporte" name="deporte" value="deporte">
+            <label for="deportes">deportes</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia" value="tecnologia">
+            <label for="tecnologia">tecnologia</label>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpiar">
+            <br>
+            <button type="submit" style="background: greenyellow;">Ok</button>
+            <button type="reset" style="border: 3px solid purple">borrar</button>
+        </select> 
+    </form>
+</body>
+</html>
