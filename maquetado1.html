@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #contenedor {
+            display: flex;
+            gap: 10px;
+            background-color: rgb(185, 157, 122);    
+            padding: 50px; 
+            flex-direction: column;
+            color: white;
+        }
+
+        header {
+            background-color: rgb(96, 79, 189);
+            width: 75%;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        main {
+            
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        nav {
+            background-color: blue;
+            width: 20%;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        #contenido_central {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 60%;
+        }
+
+
+        article {
+            background-color: rgb(238, 104, 115);
+        }
+
+        aside {
+            background-color: royalblue;
+            width: 20%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgb(227, 255, 127);
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor" class="contenedor">
+        <header>
+            <h1>Encabezado principal</h1>
+        </header>
+        <main>
+            <nav>
+                <h3>Navegacio</h3>
+                <ul>
+                    <li>Inicio</li>
+                    <li>servicios</li>
+                    <li>Contactos</li>
+                </ul>
+            </nav>
+            <div id="contenido_central" class="contenido_central">
+            <article>
+                <h2>Articulo 1</h2>
+                <p>Este es el contenido importante del articulo 1</p>
+            </article>
+            <article>
+                <h2>Articulo 2</h2>
+                <p>Este es el contenido del articulo</p>
+            </article>
+            
+        </div>
+            <aside>
+                <h3>Complementario</h3>
+                <p>publicidad</p>
+            </aside>
+            
+        </main>
+
+        <footer>
+            <P>@ 2025 mi sitio web, derechos reservados</P>
+        </footer>
+    </div>
+</body>
+</html>

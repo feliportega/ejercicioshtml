@@ -1,0 +1,60 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+        #contenedor {
+            background-color: rgb(185, 157, 122);    
+            padding: 50px; 
+            display: flex;
+            gap: 10px;
+            color: white;
+        }
+
+        header {
+            background-color: rgb(96, 79, 189);
+            width: 75%;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        main {
+            
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        nav {
+            background-color: blue;
+            width: 20%;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        #contenido_central {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 60%;
+        }
+
+
+        article {
+            background-color: rgb(238, 104, 115);
+        }
+
+        aside {
+            background-color: royalblue;
+            width: 20%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgb(227, 255, 127);
+            width: 100%;
+            
+        }

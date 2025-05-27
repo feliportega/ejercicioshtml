@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño de Página Web m</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+    background-color: rgb(175, 175, 175);
+    padding: 0 0 0 1000px;
+}
+
+.hero {
+    background-image: url('.foto1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.caja {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0;
+  
+}
+
+.header, .hero, .contenido-principal, .info-extra, .contacto-mapa, .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  margin: 0 10px;
+  
+}
+
+.imagenes, .info-extra, .contacto-mapa {
+  display: flex;
+  gap: 10px;
+}
+
+.subtitulos {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+}
+  </style>
+</head>
+<body>
+  <header class="caja header">
+    <div class="logo">LOGO</div>
+    <nav class="menu">
+      <a href="#">MENU</a>
+      <a href="#">MENU</a>
+      <a href="#">MENU</a>
+    </nav>
+  </header>
+
+  <section class="caja hero">
+    <h1>TÍTULO 1</h1>
+    <h2>TÍTULO 2</h2>
+    <button>Reserva ya</button>
+  </section>
+
+  <section class="caja contenido-principal">
+    <article class="caja texto">
+      <h3>TÍTULO 2</h3>
+      <p>Lorem ipsum...</p>
+    </article>
+    <div class="caja imagenes">
+      <div class="caja imagen">TÍTULO 3</div>
+      <div class="caja imagen">TÍTULO 4</div>
+    </div>
+  </section>
+
+  <section class="caja info-extra">
+    <div class="caja etiquetas">
+      <p>TÍTULO 2</p>
+      <p>TÍTULO 3</p>
+    </div>
+    <div class="caja redes">
+      <p>TÍTULO 3</p>
+      <p>Facebook Instagram WhatsApp</p>
+    </div>
+  </section>
+
+  <section class="caja contacto-mapa">
+    <div class="caja mapa">MAPA</div>
+    <div class="caja formulario">
+      <form>
+        <input type="text" placeholder="Nombre"><br>
+        <input type="email" placeholder="Correo"><br>
+        <textarea placeholder="Mensaje"></textarea><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="caja footer">
+    <nav>
+      <a href="#">MENU</a>
+      <a href="#">MENU</a>
+      <a href="#">MENU</a>
+    </nav>
+    <div class="subtitulos">
+      <p>Subtítulo</p>
+      <p>Subtítulo</p>
+      <p>Subtítulo</p>
+    </div>
+    <p>&copy; Derechos reservados</p>
+  </footer>
+</body>
+</html>
