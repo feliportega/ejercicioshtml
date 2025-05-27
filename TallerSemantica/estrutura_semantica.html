@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag web</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+       header {
+        background-color: rgb(162, 255, 0);
+        height: 100px;
+        display: flex;
+       }
+       nav {
+        display: flex;
+        align-items: center;
+       }
+       nav a {
+        align-items: center;
+        color: rgb(0, 0, 0);
+        padding: 0 0 0 100px;
+       }
+       .img {
+        background-color: aqua;
+        width: 100px;
+        margin: 5px;
+        
+       }
+       div {
+        display: flex;
+        gap: 10px;
+       }
+       main, h2 {
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-collapse: collapse;
+
+       }
+       aside {
+        background-color: blueviolet;
+        width: 30%;
+       
+       }
+       .secciones {
+        width: 70%;
+       }
+       .foters {
+        background-color: gray;
+        border: 1px solid;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+       }
+       .footeer {
+        display: flex;
+        background-color: blue;
+        gap: 10px;
+       }
+       footer, div {
+        background-color: rgb(223, 223, 23);
+        width: 100%;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./girasol3.jpg" class="img">
+        <nav>
+            <a href="#inicio">inicio</a>
+            <a href="#inicio">inicio</a>
+            <a href="#inicio">inicio</a>
+        </nav>
+    </header>
+    <div>
+    <main class="secciones">
+        <section>
+            <h2>Seccion 1</h2>
+            <article>Articulo 1</article>
+             <article>Articulo 2</article>
+        </section>
+         <section>
+            <h2>Seccion 2</h2>
+            <article>Articulo 1</article>
+             <article>Articulo 2</article>
+        </section>
+    </main>
+    <aside class="aside">
+        <nav class="asenlace">
+            <a href="#enlace1">enlace 1</a>
+            <a href="#enlace2">enlace 2</a>
+        </nav>
+        <section>
+            <figure>
+                <img src="./girasol3.jpg" alt="Girasol">
+                <figcaption>Girasol</figcaption>
+            </figure>
+        </section>
+    </aside>
+    </div>
+    <div class="foters">
+    <footer class="footeer">
+        <div class="titulo">
+            <h3>titulo</h3>
+            <p>Breve description</p>
+        </div>
+         <div>
+            <h3>contacto</h3>
+            <p>Breve description</p>
+        </div>
+         <div>
+            <h3>titulo3</h3>
+            <p>Breve description</p>
+        </div>
+         <div>
+            <h3>enlaces</h3>
+            <a href="#servicio">servicios</a>
+            <a href="#servicio">servicios</a>
+            <p>Breve description</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

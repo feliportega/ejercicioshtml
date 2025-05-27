@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid rgb(5, 2, 2);
+            border-collapse: collapse ;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Aprendiendo HTML</h1>
+    <p>Este es un breve ejemplo de cómo crear una página HTML desde cero.</p>
+
+    <ol>
+        <li>Estudia la estructura básica.</li>
+        <li>Practica con etiquetas comunes.</li>
+        <li>Explora formularios y estilos.</li>
+    </ol>
+
+    <img src="./girasol3.jpg" alt="Girasol">
+
+    <p>Visita el sitio oficial del <a href="https://www.sena.edu.co" target="_blank">SENA</a>.</p>
+
+    <table>
+        <tr>
+            <th>Curso</th>
+            <th>Duración</th>
+            <th>Modalidad</th>
+        </tr>
+        <tr>
+            <td>HTML Básico</td>
+            <td>4 semanas</td>
+            <td>Virtual</td>
+        </tr>
+    </table>
+
+    <p>Este párrafo contiene un <div><span style="color:blue;">texto resaltado</span></div> usando <code>div</code> y <code>span</code>.</p>
+
+    <section>
+        <article>
+            <h2>Artículo de ejemplo</h2>
+            <p>Este es un artículo dentro de una sección para demostrar el uso de etiquetas semánticas.</p>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Enlaces adicionales</h3>
+        <ul>
+            <li><a href="#">Anuncio 1</a></li>
+            <li><a href="#">Anuncio 2</a></li>
+        </ul>
+    </aside>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea><br><br>
+
+        <p>Género:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br><br>
+
+        <input type="checkbox" id="terminos" name="terminos">
+        <label for="terminos">Acepto los términos y condiciones</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
