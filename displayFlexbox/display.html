@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentDisplay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .titulo1 {
+            color: wheat;
+        }
+        .parrafo1 {
+            color: whitesmoke;
+        }
+        .seccion1 {
+            width: 80%;
+            background: black;
+            padding:30px;
+            border-radius: 15px;
+        }
+        .img {
+            width: 150px;
+            display: block;
+            margin-top: 15px;
+            border: 5px solid white;
+        }
+
+        #seccion2 {
+            width: 80%;
+            background: rgb(184, 37, 37);
+            border-radius: 15px;
+            padding: 30px;
+        }
+        #img2 {
+            width: 150px;
+            margin-top: 15px;
+            border: 5px solid rgb(99, 39, 39);
+            display: inline;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        #parrafo2 {
+            color: white;
+        }
+        #titulo2 {
+            color: white;
+        }
+        /*
+        seccion 3
+        */
+        
+    .titulo3 {
+        color:azure;
+    }
+    .parrafo3 {
+        color: lightcyan;
+    }
+    .img3 {
+        width:150px;
+        border: 5px solid rgb(206, 28, 28);
+        margin-top: 10px;
+        display: inline;
+    }
+    .contenedor3 {
+        display: flex;
+        align-items: center;
+    }
+    .seccion3 {
+            width: 80%;
+            background: blue;
+            border-radius: 15px;
+        padding: 30px;        
+    }
+/*
+seccion 4
+*/
+
+    .seccion4 {
+        width:80%;
+        background: black;
+    }
+    .img4 {
+        display: none ;
+    }
+    .titulo4 {
+        color: yellow;
+    }
+    .parrafo4 {
+        color: yellowgreen;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Visualizando display en css</h1>
+        <section class="seccion1">
+            <h2 class="titulo1">display.block</h2>
+            <p class="parrafo1">Las imagenes aparecen una de bajo de la otra</p>
+            <div class="contenedor1">
+                <img class="img" src="https://images.pexels.com/photos/31886003/pexels-photo-31886003/free-photo-of-vibrante-exhibicion-de-mariscos-en-el-mercado-con-langostinos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img class="img"  src="https://images.pexels.com/photos/32119577/pexels-photo-32119577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </section>
+        <section id="seccion2">
+            <h2 id="titulo2">Display.inline</h2>
+            <p id="parrafo2">Las imagenes se componten con texto</p>
+            <div id="contenedor2">
+                <img id="img2" src="https://images.pexels.com/photos/32119582/pexels-photo-32119582/free-photo-of-carrito-amarillo-en-melbourne-park-bajo-la-sombra-de-un-arbol.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img id="img2" src="https://images.pexels.com/photos/32259003/pexels-photo-32259003/free-photo-of-kc-135-stratotanker-de-la-fuerza-aerea-de-ee-uu-en-la-reserva-aerea-march.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </section>
+         <section class="seccion3">
+            <h2 class="titulo3">display.flex</h2>
+            <p class="parrafo3">Las imagenes se alinean por defecto</p>
+            <div class="contenedor3">
+                <img class="img3" src="https://images.pexels.com/photos/31886003/pexels-photo-31886003/free-photo-of-vibrante-exhibicion-de-mariscos-en-el-mercado-con-langostinos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img class="img3"  src="https://images.pexels.com/photos/32119577/pexels-photo-32119577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </section>
+         <section class="seccion4">
+            <h2 class="titulo4">display.none</h2>
+            <p class="parrafo4">estas imagenes quedan ocultas</p>
+            <div class="contenedor1">
+                <img class="img4" src="https://images.pexels.com/photos/31886003/pexels-photo-31886003/free-photo-of-vibrante-exhibicion-de-mariscos-en-el-mercado-con-langostinos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img class="img4"  src="https://images.pexels.com/photos/32119577/pexels-photo-32119577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

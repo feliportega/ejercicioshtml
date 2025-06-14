@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./ejercicio3.js"></script>
+    <style>
+        .numeros {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="resultado" placeholder="resultado" readonly>
+    <div class="numeros">
+    <input type="text" id="num1" onclick="agregar()" value="1" readonly>
+    <input type="text" id="num2" onclick="agregar()" value="2" readonly>
+    <input type="text" id="num3" onclick="agregar()" value="3" readonly>
+    <input type="text" id="num4" onclick="agregar()" value="4" readonly>
+    <input type="text" id="num5" onclick="agregar()" value="5" readonly>
+    <input type="text" id="num6" onclick="agregar()" value="6" readonly>
+    <input type="text" id="num7" onclick="agregar()" value="7" readonly>
+    <input type="text" id="num8" onclick="agregar()" value="8" readonly>
+    <input type="text" id="num9" onclick="agregar()" value="9" readonly>
+    <input type="text" id="num0" onclick="agregar()" value="0" readonly>
+    </div>
+    
+    <button id="suma" onclick="agregarSuma()" value="+">+</button>
+    <button id="result" onclick="operacion()">=</button>
+    <button id="limpiar" onclick="borrar()">borrar</button>
+</body>
+</html> 

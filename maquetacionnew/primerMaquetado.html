@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">                                                
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ºMaquetado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contenedor{
+            width: 100%;
+        }
+        #top{
+            display: flex;
+            flex-direction: column;
+        }
+        #fila-superior{
+            display: flex;
+            height: 20vh;
+        }
+        #logo-buscador{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            
+        }
+        #logo{
+            background: rgb(231, 190, 144);
+            height: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        #buscador{
+            background: rgb(243, 29, 29);
+            height: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        #banner{
+            color: white;
+            background: rgb(51, 51, 51);
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #menu{
+            background: rgb(29, 152, 253);
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .list-menu{
+            display: flex;
+            gap: 100px;
+        }
+        #content_area{
+            background: gray;
+        }
+
+    </style>
+</head>
+<body> 
+    <div id="contenedor" class="contenedor">
+        <div id="top">
+            <div id="fila-superior">
+                <div id="logo-buscador">
+                    <div id="logo">LOGO</div>
+                    <div id="buscador">BUSCADOR</div>
+                </div>    <!--logo-buscador-->
+                <div id="banner">BANNER</div>
+            </div><!--fila-superior-->
+            <nav id="menu" class="menu">
+                <ul class="list-menu">
+                    <li>Inicio</li>
+                    <li>Servicio</li>
+                    <li>Contactos</li>
+                </ul>
+            </nav>
+        </div> <!--top-->
+        <div id="content_area" class="content_area">
+            <div>ancho: 150px</div>
+            <div>ancho: 500px</div>
+            <div>ancho: 100px</div>
+        </div>  <!--content_area-->
+        <div id="footer" class="footer">
+            copyright @2025 kjdfh
+        </div>
+    </div><!--contenedor-->
+</body>
+</html>
+

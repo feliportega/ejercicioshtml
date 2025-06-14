@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculadora.js"></script>
+    <style>
+        .form {
+            margin: auto;
+            padding: 30px;
+            background: rgb(99, 99, 192);
+            width: 33%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+        }
+        input, button {
+            margin: 5px;
+        }
+        button {
+            background-color: brown;
+            color: white;
+            font-size: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form class="form">
+        <h1>*v* calculadora</h1>
+
+        <input type="number" id="num1" placeholder="ingrese el primer numero"><br>
+        <input type="number" id="num2" placeholder="ingrese el segundo numero"><br>
+    <div>
+        <button type="button" onclick="caculadora('+')">+</button>
+        <button type="button" onclick="caculadora('-')">-</button>
+        <button type="button" onclick="caculadora('*')">*</button>
+        <button type="button" onclick="caculadora('/')">/</button>
+        </div>
+        
+        <p id="resultado"></p>
+    </form>
+</body>
+</html>
